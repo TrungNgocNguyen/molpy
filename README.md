@@ -10,8 +10,6 @@ Molecule manipulation package.
 
 Copyright (c) 2020, Trung Ngoc Nguyen
 
-Test add
-
 #### Acknowledgements
  
 Project based on the 
