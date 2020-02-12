@@ -6,6 +6,7 @@ Molecule manipulation package.
 # Add imports here
 from .molpy import *
 from . import util
+from . import data
 
 # Handle versioneer
 from ._version import get_versions
