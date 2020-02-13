@@ -19,7 +19,7 @@ def distance(point1, point2):
     """
     point1 = np.asarray(point1)
     point2 = np.asarray(point2)
-    return np.linalg.norm(point1-point2)
+    return np.linalg.norm(point1 - point2)
 
 
 def read_xyz(filename):
@@ -34,6 +34,6 @@ def read_xyz(filename):
 
     xyz = []
     for line in data:
-        xyz.append([float(line[1]), [float(line[2]), [float(line[3])])
+        xyz.append(float(line[1]), float(line[2]), float(line[3]))
 
     return {"symbols": np.array(symbols), "geometry": xyz}
