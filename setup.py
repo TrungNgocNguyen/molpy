@@ -18,7 +18,6 @@ try:
 except:
     long_description = "\n".join(short_description[2:])
 
-
 setup(
     # Self-descriptive entries which should always be present
     name='molpy',
@@ -46,7 +45,7 @@ setup(
 
     # Additional entries you may want simply uncomment the lines you want and fill in the data
     # url='http://www.my_package.com',  # Website
-    install_requires=['numpy >=1.14'],              # Required packages, pulls from pip if needed; do not use for Conda deployment
+    install_requires=['numpy >=1.14'],  # Required packages, pulls from pip if needed; do not use for Conda deployment
     # platforms=['Linux',
     #            'Mac OS-X',
     #            'Unix',
@@ -55,5 +54,4 @@ setup(
 
     # Manual control if final package is compressible or not, set False to prevent the .egg from being made
     # zip_safe=False,
-
 )
