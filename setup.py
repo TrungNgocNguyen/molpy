@@ -34,7 +34,7 @@ setup(
         "console_scripts": [
             "molpy=molpy.cli:main"
         ]
-    }
+    },
     # Which Python importable modules should be included when your package is installed
     # Handled automatically by setuptools. Use 'exclude' to prevent some specific
     # subpackage(s) from being added, if needed
