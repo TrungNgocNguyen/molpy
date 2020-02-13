@@ -1,6 +1,6 @@
 """
 molpy.py
-Molecule manipulation package.
+A really cool molecule manipulation package.
 
 Handles the primary functions
 """
