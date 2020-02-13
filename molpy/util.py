@@ -24,7 +24,19 @@ def distance(point1, point2):
 
 
 def read_xyz(filename):
+    """
+        Reads xyz file.
 
+        Parameters
+        ----------
+        filename : str
+            Location of file.
+
+        Returns
+        -------
+        float
+            The distance between point1 and point2.
+    """
     with open(filename, "r") as handle:
         data = handle.readlines()
 
